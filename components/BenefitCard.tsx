@@ -38,10 +38,10 @@ const BenefitCard = ({
                     <h3 className="font-semibold text-slate-200">{title}</h3>
                 </div>
                 <div>
-                    <p>{description}</p>
+                    <img src={imgPath} alt="image" />
                 </div>
                 <div>
-                    <img src={imgPath} alt="image" />
+                    <p>{description}</p>
                 </div>
             </div>
         </div>
