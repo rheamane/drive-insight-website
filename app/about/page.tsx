@@ -67,13 +67,13 @@ const About = () => {
                         </p>
                     </div>
                     <div className="mt-2">
-                        <Image
-                            src="/quote.png"
-                            width={150}
-                            height={150}
-                            alt="quotes"
-                        />
                         <Card>
+                            <Image
+                                src="/quote.png"
+                                width={150}
+                                height={150}
+                                alt="quotes"
+                            />
                             <CardContent className="p-6">
                                 {/* FFC300 */}
 
